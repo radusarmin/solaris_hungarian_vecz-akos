@@ -185,6 +185,8 @@ class WordController {
         container.appendChild(editorDiv)
         menu.appendChild(container)
         this.wordInput.focus()
+
+        //here
     }
 
     async buildWord() {
