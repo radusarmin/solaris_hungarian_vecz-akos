@@ -130,7 +130,7 @@ class WordController {
         wordInputDiv.append(this.wordInput)
 
         const coordsDiv = myCreateElement("div", {className: "input-group mb-3"})
-        const spanX = myCreateElement("span", {className: "input-group-text", innerHTML: "x"})
+        const spanX = myCreateElement("span", {className: "input-group-text", innerHTML: "z"})
         const spanY = myCreateElement("span", {className: "input-group-text", innerHTML: "y"})
         this.xInput = myCreateElement("input", {className: "form-control", type: "number", value: this.word.position[0], step: 5})
         this.xInput.addEventListener("input", (e) => {
